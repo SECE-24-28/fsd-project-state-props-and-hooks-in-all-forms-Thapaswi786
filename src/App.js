@@ -1,8 +1,11 @@
-import React from 'react';
-import AppRouters from './Routers/AppRouters';
+import react from 'react';
+import './App.css';
+import Signup from './Signup';
 
 function App() {
-  return <AppRouters />;
+  return (
+    <Signup />
+  );
 }
 
 export default App;
